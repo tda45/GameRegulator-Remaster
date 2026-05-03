@@ -74,7 +74,6 @@ if(WIN32)
     else()
         message(WARNING "windeployqt not found. Qt dependencies will not be automatically deployed.")
     endif()
-    
     # Install Visual C++ redistributable if needed
     find_program(VCREDIST_PATH vcredist_x64.exe HINTS "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Redist/MSVC")
     if(VCREDIST_PATH)
