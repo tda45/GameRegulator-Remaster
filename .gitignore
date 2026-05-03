@@ -1,0 +1,7 @@
+build/
+*.exe
+LICENSE.txt
+installer.nsi
+folder_colors/
+translations/
+resources.qrc
